@@ -5,7 +5,7 @@ int main() {
 SetConsoleOutputCP(1251);
 SetConsoleCP(1251);
 
-//ÍÀ×ÀËÎ
+//start
 float num1, num2;
 float res;
 std::cout << "enter number 1: ";
@@ -36,7 +36,7 @@ std::cout << "result: " << res << std::endl;
 
 
 
-//ÊÎÍÅÖ
+//finish
 
 
 
