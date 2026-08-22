@@ -25,8 +25,21 @@ else if (math == '-')
 res = num1 - num2;
 else if (math == '*')
 res = num1 * num2;
-else if (math == '/')
+else if (math == '/') {
+if ( num2 == 0 ) {
+std::cout << "делить на ноль нельзя и ты ваще щеночек";
+return 0;
+ } else {
 res = num1 / num2;
+}
+} else {
+std::cout << "неизвестный символ";
+return 0;
+  }
+
+
+
+
 
 std::cout << "result: " << res << std::endl;
 
@@ -42,6 +55,6 @@ std::cout << "result: " << res << std::endl;
 
 std::cin.get();
 std::cin.get();
-    return 0;
+ 
 
 }
